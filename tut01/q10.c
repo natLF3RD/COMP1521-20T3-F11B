@@ -11,6 +11,8 @@ void print_nums(int array[], int index) {
     if (index >= 10) {
         return;
     }
+    char a;
+    printf("%c", a);
 
     printf("%d\n", array[index]);
 

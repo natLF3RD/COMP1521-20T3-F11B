@@ -20,6 +20,9 @@ struct pet {
 int main (void) {
 
     struct pet pet1;
+    // Fyi, you can do pet1.name = "Fluffy"; in this case.
+    // In the tut I ran out of time, but you would want to use strcpy 
+    //  when you want to copy a string already stored in a variable.
     strcpy(pet1.name, "Fluffy");
     strcpy(pet1.type, "axolotl");
     pet1.age = 7;
